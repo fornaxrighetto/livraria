@@ -3,7 +3,7 @@ package livraria;
 import javax.swing.JOptionPane;
 
 /**
- * @author RONALDO
+ * @author DANILO e LUCAS
  * Projeto Livraria
  * Do livro: Desbravando Java e Orientacao a Objetos
  */
