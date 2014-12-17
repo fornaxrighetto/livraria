@@ -2,6 +2,11 @@ package livraria;
 
 import javax.swing.JOptionPane;
 
+/**
+ * @author RONALDO
+ * Projeto Livraria
+ * Do livro: Desbravando Java e Orientacao a Objetos
+ */
 public class CalculadoraDeEstoque {
 		public static void main(String[] args){
 			double livroJava8;
