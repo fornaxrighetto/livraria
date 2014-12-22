@@ -7,7 +7,7 @@ public class Ebook {
 	private String isbn;
 	private Autor autor;
 	private String waterMark;
-	
+	//teste commit -v
 	
 	public String getNome() {
 		return nome;
