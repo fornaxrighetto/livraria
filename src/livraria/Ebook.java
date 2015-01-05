@@ -1,13 +1,17 @@
 package livraria;
 
-public class Ebook {
+public class Ebook extends Livro{
+	public Ebook(Autor autor) {
+		super(autor);
+		// TODO Auto-generated constructor stub
+	}
 	private String nome;
 	private String descricao;
 	private double valor;
 	private String isbn;
 	private Autor autor;
 	private String waterMark;
-	//teste commit -v
+	
 	
 	public String getNome() {
 		return nome;
@@ -46,6 +50,15 @@ public class Ebook {
 		this.waterMark = waterMark;
 	}
 	
-	
+	@Override
+	public boolean aplicaDescontoDe(double porcentagem){
+		if (porcentagem > 0.15){
+			return false;
+		}
+//			double desconto = this.getValor() * porcentagem;
+//			this.setValor(this.getValor() * desconto);
+//			return true;
+			return super.aplicaDescontoDe(porcentagem);
+	}
 	
 }
